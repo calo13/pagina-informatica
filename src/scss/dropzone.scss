@@ -1,0 +1,49 @@
+// Variables para los colores y otros valores reutilizables
+$border-color: #b3b3b3;
+$hover-border-color: #28a745;
+$background-color: #f8f9fa;
+$hover-background-color: #e9ecef;
+$text-color: #6c757d;
+$file-text-color: #343a40;
+$border-radius: 10px;
+$padding: 20px;
+$font-size: 18px;
+
+// Estilo del contenedor Dropzone
+.dropzone {
+  border: 2px dashed $border-color;
+  background: $background-color;
+  padding: $padding;
+  text-align: center;
+  font-size: $font-size;
+  color: $text-color;
+  border-radius: $border-radius;
+  
+  // Estilo al arrastrar un archivo sobre el área Dropzone
+  &.dz-drag-hover {
+    border-color: $hover-border-color;
+    background: $hover-background-color;
+  }
+
+  // Estilo para el texto dentro de Dropzone
+  .dz-message {
+    font-weight: bold;
+    
+    h3 {
+      margin: 0;
+    }
+    
+    p {
+      margin: 0;
+      font-size: 14px;
+      color: lighten($text-color, 10%);
+    }
+  }
+
+  // Estilo para los archivos subidos
+  .dz-preview {
+    .dz-filename {
+      color: $file-text-color;
+    }
+  }
+}

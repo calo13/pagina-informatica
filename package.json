@@ -1,0 +1,49 @@
+{
+  "name": "industria-app",
+  "version": "1.0.0",
+  "description": "Pagina para Industria Militar",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack",
+    "watch": "webpack --watch",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "autoprefixer": "^10.4.19",
+    "copy-webpack-plugin": "^12.0.2",
+    "css-loader": "^7.1.2",
+    "exports-loader": "^5.0.0",
+    "file-loader": "^6.2.0",
+    "html-webpack-plugin": "^5.6.0",
+    "mini-css-extract-plugin": "^2.9.0",
+    "postcss-loader": "~8.1.1",
+    "precss": "^4.0.0",
+    "sass-loader": "^14.2.1",
+    "style-loader": "^4.0.0",
+    "terser": "^5.31.1",
+    "webpack": "^5.92.0",
+    "webpack-cli": "^5.1.4"
+  },
+  "dependencies": {
+    "animate.css": "^4.1.1",
+    "bootstrap": "^5.3.3",
+    "bootstrap-icons": "^1.11.3",
+    "core-js": "^3.37.1",
+    "countup.js": "^2.8.0",
+    "datatables.net-bs5": "^2.0.8",
+    "dropzone": "^6.0.0-beta.2",
+    "fullcalendar": "^6.1.14",
+    "glightbox": "^3.3.0",
+    "jquery": "^3.7.1",
+    "leaflet": "^1.9.4",
+    "moment": "^2.30.1",
+    "owl.carousel": "^2.3.4",
+    "pdfjs-dist": "^4.6.82",
+    "sass": "^1.77.5",
+    "sweetalert2": "^11.11.1",
+    "waypoints": "^4.0.1",
+    "wow.js": "^1.2.2"
+  }
+}

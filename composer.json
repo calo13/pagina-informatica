@@ -1,0 +1,26 @@
+{
+    "name": "mindef/industria",
+    "version": "1.0.0",
+    "description": "Pagina para Industria Militar",
+    "type": "project",
+    "config": {
+        "platform-check": false
+    },
+    "autoload": {
+        "psr-4": {
+            "MVC\\" : "./",
+            "Controllers\\" : "./controllers",
+            "Model\\" : "./models",
+            "Classes\\" : "./classes"
+        }
+    },
+    "require": {
+        "mpdf/mpdf": "^8.1",
+        "phpmailer/phpmailer": "^6.6",
+        "dompdf/dompdf": "^2.0",
+        "vlucas/phpdotenv": "^5.5",
+        "guzzlehttp/guzzle": "^7.8",
+        "phpseclib/phpseclib": "^3.0",
+        "intervention/image": "^2.7"
+    }
+}
